@@ -1,8 +1,15 @@
 #Lei Li
 node ip-10-0-5-113{
+	include sshd
+	include postfix
+	include apache
 }
 #Heqian Li
 node ip-10-0-5-217{
+
+	include sshd
+	include postfix
+	include apache
 }
 #Tianhao Qian
 node ip-10-0-5-179{
