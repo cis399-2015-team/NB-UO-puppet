@@ -5,6 +5,6 @@ class postfix{
 	service { "postfix":
 		ensure => true,
 		enable => true,
-		require => Package["apache2"],
+		require => Package["postfix"],
 	}
 }
