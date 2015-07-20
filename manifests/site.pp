@@ -14,6 +14,8 @@ node ip-10-0-5-217{
 #Tianhao Qian
 node ip-10-0-5-179{
         include sshd
+	include postfix
+	include apache
 	cron { "puppet update":
 	    command => "cd /etc/puppet && git pull -q origin master",
 	    user    => root,
