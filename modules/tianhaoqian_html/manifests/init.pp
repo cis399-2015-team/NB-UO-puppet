@@ -1,5 +1,6 @@
 class tianhaoqian_html {
 	file { "/var/www/html/index.html":
+		recurse => true,
 		mode => 644,
 		owner => "root",
 		group => "root",
