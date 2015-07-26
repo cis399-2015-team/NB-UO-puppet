@@ -1,6 +1,5 @@
 class heqianli_html {
 	file { "/var/www/html/index.html":
-		ensure => true,
                 recurse => true,
 		mode => 644,
 		owner => "root",
