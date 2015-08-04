@@ -14,7 +14,7 @@ node ip-10-0-5-217{
 	include heqianli_html
 }
 #Tianhao Qian
-node ip-10-0-5-179{
+node ip-10-0-5-119{
         include sshd
 	include postfix
 	include apache
