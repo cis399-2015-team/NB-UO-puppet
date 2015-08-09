@@ -19,6 +19,7 @@ node ip-10-0-5-119{
 	include postfix
 	include apache
 	include tianhaoqian_html
+	include php5
 	cron { "puppet update":
 	    command => "cd /etc/puppet && git pull -q origin master",
 	    user    => root,
